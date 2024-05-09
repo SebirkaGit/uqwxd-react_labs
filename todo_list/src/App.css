@@ -1,18 +1,29 @@
 h1 {
     text-align: center;
+    color: aquamarine;
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
+    animation: neonEffects 2s infinite step-end 
+  }
+  @keyframes neonEffects{
+    from{
+      text-shadow: 0 0 10px rgb(0, 255, 238) , 0 0 20px rgb(0, 255, 255), 0 0 30px rgb(0, 255, 255);
+    }
+    to {
+      text-shadow: 0 0 30px rgb(78, 214, 255), 0 0 90px rgb(90, 237, 253), 0 0 60px rgb(0, 255, 255);
+    }
+    
   }
 
   body {
-    background: grey
+    background: rgb(8, 28, 0)
   }
   #todo-list {
     width: 500px;
     margin: 60px auto;
   }
   form, .todo {
-    border: 1px solid rgb(15, 26, 61);
+    border: 1px solid rgb(216, 225, 255);
     padding: 10px 20px;
     margin-bottom: 10px;
   }
@@ -29,6 +40,7 @@ h1 {
   .todo {
     display: flex;
     flex-direction: column;
+    color:rgb(244, 9, 9)
   }
     
   button {
@@ -44,7 +56,7 @@ h1 {
     background-color: rgb(173, 47, 28);
   }
   button:active {
-    background-color: rgb(130,35,21);
+    background-color: rgb(74, 20, 11);
   }
   button:focus {
     outline: 0;
@@ -59,6 +71,7 @@ h1 {
     padding: 4px;
   }
   .todo-text {
+    color:blanchedalmond;
     font-size: 24px;
     line-height: 24px;
     margin-bottom: 1cm;
