@@ -3,7 +3,7 @@ h1 {
     color: aquamarine;
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
-    animation: neonEffects 2s infinite step-end 
+    animation: neonEffects 1s infinite step-end 
   }
   @keyframes neonEffects{
     from{
